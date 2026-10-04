@@ -20,7 +20,7 @@
     "platform": "Android",
     "score": 9.1,
     "verdict": "A placeholder verdict. On the live site this is your own honest summary after playing the game for hours, not a copy of the store description.",
-    "image": { "src": "/images/featured-review.jpg", "alt": "Gameplay screenshot of Sample Game Title" },
+    "image": { "src": "/images/featured-review.png", "alt": "Gameplay screenshot of Sample Game Title" },
     "pros": ["Smooth 60 FPS on mid-range phones", "Deep progression without paywalls", "Gorgeous art direction"],
     "cons": ["Long first download", "Late-game grind"],
     "reviewHref": "/reviews/sample-game-title",
