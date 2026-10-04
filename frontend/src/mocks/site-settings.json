@@ -1,0 +1,41 @@
+{
+  "siteName": "TapQuest",
+  "tagline": "Android game reviews you can trust",
+  "headerCta": { "label": "Top Picks", "href": "/top-picks" },
+  "navigation": [
+    { "id": "home", "label": "Home", "href": "/" },
+    { "id": "reviews", "label": "Reviews", "href": "/reviews" },
+    { "id": "games", "label": "Games", "href": "/games" },
+    { "id": "gear", "label": "Gear", "href": "/gear" },
+    { "id": "about", "label": "About", "href": "/about" }
+  ],
+  "footer": {
+    "description": "Honest, hands-on reviews of the best Android games and the gear to play them.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Latest Reviews", "href": "/reviews" },
+          { "label": "Top Picks", "href": "/top-picks" },
+          { "label": "Categories", "href": "/categories" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "href": "/about" },
+          { "label": "Contact", "href": "/contact" },
+          { "label": "Affiliate Disclosure", "href": "/affiliate-disclosure" },
+          { "label": "Privacy Policy", "href": "/privacy" }
+        ]
+      }
+    ],
+    "disclosure": "We may earn a commission when you buy through links on this site, at no extra cost to you."
+  },
+  "social": [
+    { "platform": "YouTube", "url": "https://youtube.com" },
+    { "platform": "Instagram", "url": "https://instagram.com" },
+    { "platform": "Discord", "url": "https://discord.com" }
+  ],
+  "seo": { "description": "In-depth Android game reviews, gameplay videos and gear recommendations." }
+}
