@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "eyebrow": "Hands-on Android game reviews",
+    "headlineLead": "Find your next",
+    "headlineHighlight": "mobile obsession",
+    "subtext": "Real gameplay, honest scores and the best gear to play on. We test every game so you don't waste a download.",
+    "primaryCta": { "label": "Read Latest Reviews", "href": "/reviews" },
+    "secondaryCta": { "label": "See Top Picks", "href": "/top-picks" },
+    "video": { "src": "/videos/hero.mp4", "poster": null },
+    "stats": [
+      { "value": "120+", "label": "Games reviewed" },
+      { "value": "4K", "label": "Gameplay footage" },
+      { "value": "Weekly", "label": "New reviews" }
+    ]
+  }
+}
