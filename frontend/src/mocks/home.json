@@ -12,5 +12,23 @@
       { "value": "4K", "label": "Gameplay footage" },
       { "value": "Weekly", "label": "New reviews" }
     ]
+  },
+  "featuredReview": {
+    "sectionLabel": "Editor's pick",
+    "title": "Sample Game Title",
+    "genre": "Action RPG",
+    "platform": "Android",
+    "score": 9.1,
+    "verdict": "A placeholder verdict. On the live site this is your own honest summary after playing the game for hours, not a copy of the store description.",
+    "image": { "src": "/images/featured-review.jpg", "alt": "Gameplay screenshot of Sample Game Title" },
+    "pros": ["Smooth 60 FPS on mid-range phones", "Deep progression without paywalls", "Gorgeous art direction"],
+    "cons": ["Long first download", "Late-game grind"],
+    "reviewHref": "/reviews/sample-game-title",
+    "reviewCtaLabel": "Read the full review",
+    "affiliate": {
+      "label": "Get the best controller for it",
+      "url": "https://example.com",
+      "merchant": "Example Store"
+    }
   }
 }
