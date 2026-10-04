@@ -30,5 +30,53 @@
       "url": "https://example.com",
       "merchant": "Example Store"
     }
+  },
+    "trendingGames": {
+    "sectionLabel": "Trending now",
+    "title": "What everyone is playing",
+    "subtitle": "The Android games getting the most attention this week, all tested by us.",
+    "viewAll": { "label": "View all reviews", "href": "/reviews" },
+    "games": [
+      {
+        "id": "g1",
+        "title": "Sample Game One",
+        "genre": "Action RPG",
+        "rating": 9.1,
+        "badge": "New",
+        "tags": ["Offline", "Controller"],
+        "href": "/reviews/sample-game-one",
+        "image": { "src": null, "alt": "Sample Game One artwork" }
+      },
+      {
+        "id": "g2",
+        "title": "Sample Game Two",
+        "genre": "Battle Royale",
+        "rating": 8.6,
+        "badge": "Hot",
+        "tags": ["Multiplayer", "Free"],
+        "href": "/reviews/sample-game-two",
+        "image": { "src": null, "alt": "Sample Game Two artwork" }
+      },
+      {
+        "id": "g3",
+        "title": "Sample Game Three",
+        "genre": "Puzzle",
+        "rating": 8.9,
+        "badge": null,
+        "tags": ["Offline", "Casual"],
+        "href": "/reviews/sample-game-three",
+        "image": { "src": null, "alt": "Sample Game Three artwork" }
+      },
+      {
+        "id": "g4",
+        "title": "Sample Game Four",
+        "genre": "Racing",
+        "rating": 8.2,
+        "badge": null,
+        "tags": ["Online", "Controller"],
+        "href": "/reviews/sample-game-four",
+        "image": { "src": null, "alt": "Sample Game Four artwork" }
+      }
+    ]
   }
 }

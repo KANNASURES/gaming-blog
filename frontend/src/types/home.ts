@@ -42,8 +42,26 @@ export interface FeaturedReviewContent {
   reviewCtaLabel: string;
   affiliate: AffiliateOffer;
 }
+export interface TrendingGame {
+  id: string;
+  title: string;
+  genre: string;
+  rating: number;
+  badge: string | null;
+  tags: string[];
+  href: string;
+  image: { src: string | null; alt: string };
+}
 
+export interface TrendingGamesContent {
+  sectionLabel: string;
+  title: string;
+  subtitle: string;
+  viewAll: Cta;
+  games: TrendingGame[];
+}
 export interface HomeContent {
   hero: HeroContent;
   featuredReview: FeaturedReviewContent;
+  trendingGames: TrendingGamesContent;
 }
