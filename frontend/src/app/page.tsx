@@ -5,6 +5,7 @@ import TrendingGames from "@/components/home/TrendingGames";
 import Categories from "@/components/home/Categories";
 import TopPicks from "@/components/home/TopPicks";
 import LatestReviews from "@/components/home/LatestReviews";
+import Newsletter from "@/components/home/Newsletter";
 
 export default async function Home() {
   const home = await getHomeContent();
@@ -17,6 +18,7 @@ export default async function Home() {
       <Categories data={home.categories} />
       <TopPicks data={home.topPicks} />
       <LatestReviews data={home.latestReviews} />
+      <Newsletter data={home.newsletter} />
     </>
   );
 }
