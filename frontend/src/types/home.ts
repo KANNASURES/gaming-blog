@@ -60,8 +60,25 @@ export interface TrendingGamesContent {
   viewAll: Cta;
   games: TrendingGame[];
 }
+export interface CategoryItem {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  gameCount: number;
+  href: string;
+}
+
+export interface CategoriesContent {
+  sectionLabel: string;
+  title: string;
+  subtitle: string;
+  countSuffix: string;
+  items: CategoryItem[];
+}
 export interface HomeContent {
   hero: HeroContent;
   featuredReview: FeaturedReviewContent;
   trendingGames: TrendingGamesContent;
+  categories: CategoriesContent;
 }

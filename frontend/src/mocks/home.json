@@ -78,5 +78,19 @@
         "image": { "src": null, "alt": "Sample Game Four artwork" }
       }
     ]
+  },
+    "categories": {
+    "sectionLabel": "Browse by genre",
+    "title": "Pick your playstyle",
+    "subtitle": "Every review is filed by genre so you can jump straight to what you love.",
+    "countSuffix": "games",
+    "items": [
+      { "id": "c1", "name": "Action & RPG", "description": "Big worlds, deep builds, long sessions.", "icon": "swords", "gameCount": 34, "href": "/categories/action-rpg" },
+      { "id": "c2", "name": "Battle Royale", "description": "Squads, drops and last-circle clutches.", "icon": "crosshair", "gameCount": 18, "href": "/categories/battle-royale" },
+      { "id": "c3", "name": "Racing", "description": "Drift, tune and chase the podium.", "icon": "car", "gameCount": 12, "href": "/categories/racing" },
+      { "id": "c4", "name": "Puzzle & Strategy", "description": "Think fast, plan slow, win smart.", "icon": "puzzle", "gameCount": 27, "href": "/categories/puzzle-strategy" },
+      { "id": "c5", "name": "Offline Games", "description": "No internet needed. Perfect for travel.", "icon": "wifi-off", "gameCount": 41, "href": "/categories/offline" },
+      { "id": "c6", "name": "Controller Support", "description": "Games that play best with a gamepad.", "icon": "gamepad", "gameCount": 22, "href": "/categories/controller-support" }
+    ]
   }
 }
