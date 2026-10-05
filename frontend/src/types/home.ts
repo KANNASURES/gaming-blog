@@ -100,10 +100,41 @@ export interface TopPicksContent {
   reviewLinkLabel: string;
   items: TopPick[];
 }
+export interface ReviewFilter {
+  id: string;
+  label: string;
+}
+
+export interface ReviewCardItem {
+  id: string;
+  title: string;
+  excerpt: string;
+  categoryId: string;
+  categoryLabel: string;
+  score: number;
+  publishedAt: string;
+  readMinutes: number;
+  author: string;
+  href: string;
+  image: { src: string | null; alt: string };
+}
+
+export interface LatestReviewsContent {
+  sectionLabel: string;
+  title: string;
+  subtitle: string;
+  filterAllLabel: string;
+  emptyLabel: string;
+  readTimeSuffix: string;
+  viewAll: Cta;
+  filters: ReviewFilter[];
+  items: ReviewCardItem[];
+}
 export interface HomeContent {
   hero: HeroContent;
   featuredReview: FeaturedReviewContent;
   trendingGames: TrendingGamesContent;
   categories: CategoriesContent;
   topPicks: TopPicksContent;
+  latestReviews: LatestReviewsContent;
 }

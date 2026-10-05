@@ -146,5 +146,99 @@
         "reviewHref": "/reviews/sample-phone-cooler"
       }
     ]
+  },
+    "latestReviews": {
+    "sectionLabel": "Fresh from the lab",
+    "title": "Latest reviews",
+    "subtitle": "New games, tested properly and scored honestly.",
+    "filterAllLabel": "All",
+    "emptyLabel": "No reviews in this genre yet.",
+    "readTimeSuffix": "min read",
+    "viewAll": { "label": "See every review", "href": "/reviews" },
+    "filters": [
+      { "id": "action-rpg", "label": "Action & RPG" },
+      { "id": "battle-royale", "label": "Battle Royale" },
+      { "id": "puzzle-strategy", "label": "Puzzle & Strategy" }
+    ],
+    "items": [
+      {
+        "id": "r1",
+        "title": "Sample Review One",
+        "excerpt": "Placeholder excerpt. Two lines that make a reader want to open the full review.",
+        "categoryId": "action-rpg",
+        "categoryLabel": "Action & RPG",
+        "score": 9.0,
+        "publishedAt": "2026-10-03",
+        "readMinutes": 6,
+        "author": "Author Name",
+        "href": "/reviews/sample-review-one",
+        "image": { "src": null, "alt": "Sample Review One artwork" }
+      },
+      {
+        "id": "r2",
+        "title": "Sample Review Two",
+        "excerpt": "Placeholder excerpt. Two lines that make a reader want to open the full review.",
+        "categoryId": "battle-royale",
+        "categoryLabel": "Battle Royale",
+        "score": 8.4,
+        "publishedAt": "2026-10-01",
+        "readMinutes": 5,
+        "author": "Author Name",
+        "href": "/reviews/sample-review-two",
+        "image": { "src": null, "alt": "Sample Review Two artwork" }
+      },
+      {
+        "id": "r3",
+        "title": "Sample Review Three",
+        "excerpt": "Placeholder excerpt. Two lines that make a reader want to open the full review.",
+        "categoryId": "puzzle-strategy",
+        "categoryLabel": "Puzzle & Strategy",
+        "score": 8.8,
+        "publishedAt": "2026-09-28",
+        "readMinutes": 4,
+        "author": "Author Name",
+        "href": "/reviews/sample-review-three",
+        "image": { "src": null, "alt": "Sample Review Three artwork" }
+      },
+      {
+        "id": "r4",
+        "title": "Sample Review Four",
+        "excerpt": "Placeholder excerpt. Two lines that make a reader want to open the full review.",
+        "categoryId": "action-rpg",
+        "categoryLabel": "Action & RPG",
+        "score": 8.1,
+        "publishedAt": "2026-09-25",
+        "readMinutes": 7,
+        "author": "Author Name",
+        "href": "/reviews/sample-review-four",
+        "image": { "src": null, "alt": "Sample Review Four artwork" }
+      },
+      {
+        "id": "r5",
+        "title": "Sample Review Five",
+        "excerpt": "Placeholder excerpt. Two lines that make a reader want to open the full review.",
+        "categoryId": "battle-royale",
+        "categoryLabel": "Battle Royale",
+        "score": 7.9,
+        "publishedAt": "2026-09-22",
+        "readMinutes": 5,
+        "author": "Author Name",
+        "href": "/reviews/sample-review-five",
+        "image": { "src": null, "alt": "Sample Review Five artwork" }
+      },
+      {
+        "id": "r6",
+        "title": "Sample Review Six",
+        "excerpt": "Placeholder excerpt. Two lines that make a reader want to open the full review.",
+        "categoryId": "puzzle-strategy",
+        "categoryLabel": "Puzzle & Strategy",
+        "score": 9.2,
+        "publishedAt": "2026-09-19",
+        "readMinutes": 3,
+        "author": "Author Name",
+        "href": "/reviews/sample-review-six",
+        "image": { "src": null, "alt": "Sample Review Six artwork" }
+      }
+    ]
   }
 }
