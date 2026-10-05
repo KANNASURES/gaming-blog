@@ -240,5 +240,20 @@
         "image": { "src": null, "alt": "Sample Review Six artwork" }
       }
     ]
+  },
+    "newsletter": {
+    "sectionLabel": "Stay in the loop",
+    "title": "One email a week. Zero spam.",
+    "subtitle": "The best new Android games and the gear worth buying, delivered every week.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "submitLabel": "Subscribe",
+    "submittingLabel": "Subscribing…",
+    "invalidEmailMessage": "Please enter a valid email address.",
+    "errorMessage": "Something went wrong. Please try again in a moment.",
+    "successTitle": "You're in!",
+    "successMessage": "Thanks for subscribing. Check your inbox soon.",
+    "consentNote": "By subscribing you agree to receive our emails. Unsubscribe any time.",
+    "privacyLink": { "label": "Privacy Policy", "href": "/privacy" }
   }
 }

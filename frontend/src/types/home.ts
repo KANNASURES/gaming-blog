@@ -130,6 +130,21 @@ export interface LatestReviewsContent {
   filters: ReviewFilter[];
   items: ReviewCardItem[];
 }
+export interface NewsletterContent {
+  sectionLabel: string;
+  title: string;
+  subtitle: string;
+  emailLabel: string;
+  emailPlaceholder: string;
+  submitLabel: string;
+  submittingLabel: string;
+  invalidEmailMessage: string;
+  errorMessage: string;
+  successTitle: string;
+  successMessage: string;
+  consentNote: string;
+  privacyLink: Cta;
+}
 export interface HomeContent {
   hero: HeroContent;
   featuredReview: FeaturedReviewContent;
@@ -137,4 +152,5 @@ export interface HomeContent {
   categories: CategoriesContent;
   topPicks: TopPicksContent;
   latestReviews: LatestReviewsContent;
+  newsletter: NewsletterContent;
 }
