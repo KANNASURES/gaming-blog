@@ -92,5 +92,59 @@
       { "id": "c5", "name": "Offline Games", "description": "No internet needed. Perfect for travel.", "icon": "wifi-off", "gameCount": 41, "href": "/categories/offline" },
       { "id": "c6", "name": "Controller Support", "description": "Games that play best with a gamepad.", "icon": "gamepad", "gameCount": 22, "href": "/categories/controller-support" }
     ]
+  },
+    "topPicks": {
+    "sectionLabel": "Our top picks",
+    "title": "Gear worth your money",
+    "subtitle": "The accessories we actually used while testing games, ranked by how much they improved play.",
+    "disclosure": "We may earn a commission if you buy through these links, at no extra cost to you. It never changes our scores.",
+    "reviewLinkLabel": "Read our review",
+    "items": [
+      {
+        "id": "p1",
+        "rank": 2,
+        "badge": "Best budget",
+        "highlight": false,
+        "name": "Sample Trigger Set",
+        "category": "Mobile triggers",
+        "rating": 8.4,
+        "summary": "Placeholder text. Write what you honestly found after real use.",
+        "features": ["Clip-on, no charging", "Fits most phones", "Light and portable"],
+        "priceLabel": null,
+        "image": { "src": null, "alt": "Sample Trigger Set product photo" },
+        "buy": { "label": "Check price", "url": "https://example.com", "merchant": "Example Store" },
+        "reviewHref": "/reviews/sample-trigger-set"
+      },
+      {
+        "id": "p2",
+        "rank": 1,
+        "badge": "Best overall",
+        "highlight": true,
+        "name": "Sample Gamepad Pro",
+        "category": "Controllers",
+        "rating": 9.3,
+        "summary": "Placeholder text. Write what you honestly found after real use.",
+        "features": ["Low-latency Bluetooth", "Phone clamp included", "20-hour battery"],
+        "priceLabel": null,
+        "image": { "src": null, "alt": "Sample Gamepad Pro product photo" },
+        "buy": { "label": "Check price", "url": "https://example.com", "merchant": "Example Store" },
+        "reviewHref": "/reviews/sample-gamepad-pro"
+      },
+      {
+        "id": "p3",
+        "rank": 3,
+        "badge": "Best cooling",
+        "highlight": false,
+        "name": "Sample Phone Cooler",
+        "category": "Coolers",
+        "rating": 8.1,
+        "summary": "Placeholder text. Write what you honestly found after real use.",
+        "features": ["Semiconductor cooling", "Quiet fan", "Fits most phones"],
+        "priceLabel": null,
+        "image": { "src": null, "alt": "Sample Phone Cooler product photo" },
+        "buy": { "label": "Check price", "url": "https://example.com", "merchant": "Example Store" },
+        "reviewHref": "/reviews/sample-phone-cooler"
+      }
+    ]
   }
 }

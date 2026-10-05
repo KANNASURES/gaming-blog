@@ -76,9 +76,34 @@ export interface CategoriesContent {
   countSuffix: string;
   items: CategoryItem[];
 }
+export interface TopPick {
+  id: string;
+  rank: number;
+  badge: string | null;
+  highlight: boolean;
+  name: string;
+  category: string;
+  rating: number;
+  summary: string;
+  features: string[];
+  priceLabel: string | null;
+  image: { src: string | null; alt: string };
+  buy: { label: string; url: string; merchant: string };
+  reviewHref: string;
+}
+
+export interface TopPicksContent {
+  sectionLabel: string;
+  title: string;
+  subtitle: string;
+  disclosure: string;
+  reviewLinkLabel: string;
+  items: TopPick[];
+}
 export interface HomeContent {
   hero: HeroContent;
   featuredReview: FeaturedReviewContent;
   trendingGames: TrendingGamesContent;
   categories: CategoriesContent;
+  topPicks: TopPicksContent;
 }
