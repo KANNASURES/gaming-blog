@@ -5,6 +5,9 @@ import { getSiteSettings } from "@/services/site-service";
 import Loader from "@/components/layout/Loader";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import SmoothScroll from "@/components/layout/SmoothScroll";
+import ScrollProgress from "@/components/layout/ScrollProgress";
+import CursorFollower from "@/components/layout/CursorFollower";
 
 const clash = localFont({
   src: "../fonts/ClashDisplay-Variable.woff2",
@@ -38,7 +41,10 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className={`${clash.variable} ${satoshi.variable}`}>
-      <body>
+            <body>
+        <SmoothScroll />
+        <ScrollProgress />
+        <CursorFollower />
         <Loader siteName={settings.siteName} />
         <Navbar
           siteName={settings.siteName}
