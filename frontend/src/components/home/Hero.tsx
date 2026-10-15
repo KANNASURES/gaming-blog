@@ -39,10 +39,7 @@ export default function Hero({ data }: { data: HeroContent }) {
           {data.eyebrow}
         </p>
 
-        <h1
-          className="reveal mt-6 max-w-4xl font-display text-5xl font-semibold leading-[1.05] tracking-tight md:text-7xl lg:text-8xl"
-          style={{ ["--delay" as string]: "1650ms" }}
-        >
+        <h1 className="mt-6 max-w-4xl font-display text-5xl font-semibold leading-[1.05] tracking-tight md:text-7xl lg:text-8xl">
           {data.headlineLead}{" "}
           <span className="bg-gradient-to-r from-brand to-glow bg-clip-text text-transparent">
             {data.headlineHighlight}
